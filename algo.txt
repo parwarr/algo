@@ -1,0 +1,40 @@
+An algorithm is a set of well-defined instructions to solve a particular problem.
+
+Like in a dish.
+In a dish you are following a recipe.
+
+example: Noodles
+
+As ingredients you have Cup of noodles, taste maker and water.
+
+then you have a recipe with the steps like 1. boil water 2. Pour water into cup 3. Add Taste maker and finally 4. Close lid and wait 4 minutes.
+
+If you followed the recipe then you will have tasty noodles.
+
+
+Programming example:
+
+Algorithm to add two numbers:
+
+first you have the input this can be seen as the ingredients.
+
+ingridients = Two numbers like: "a" and "b".
+
+
+then you have a recipe which you will follow for the dish. This can be an algorithm.
+
+Recipe = 1. Add numbers using '+' 2. Return the value.
+
+
+Finally you will have the tasty dish. This can be seen as output.
+
+Dish = Sum of the two numbers in this case the output of "a" and "b".
+
+
+Characteristics of an algorithm:
+
+1. Well defined inputs and outputs.
+
+2. Each step should be clear and unique
+
+3. Language independent
