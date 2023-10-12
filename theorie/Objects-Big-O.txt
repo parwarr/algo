@@ -1,0 +1,15 @@
+An Object is a collection of key value pairs.
+
+example: const obj = {key1: value1, key2: value2, key3: value3}
+
+If you want to access, insert or remove an element the time complexity is O(1)- Constant.
+
+If you want to search for an element the time complexity is O(n)- Linear.
+
+Methods:
+
+Object.keys(obj) - returns an array of keys. Time complexity is O(n).
+
+Object.values(obj) - returns an array of values. Time complexity is O(n).
+
+Object.entries(obj) - returns an array of key value pairs. Time complexity is O(n).

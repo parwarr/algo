@@ -1,0 +1,29 @@
+How do we analyse which one of the algorithms is better than the other?
+
+We evaluate the performance of an algorithm in terms of its input size.
+
+First we have the Time complexity of an algorithm. Which takes the Amount of time taken by an algorithm to run as a function of the length of the input.
+
+Then we have the Space complexity of an algorithm. Which takes the Amount of memory taken by an algorithm to run as a function of the length of the input.
+
+
+Time complexity: Amount of time taken.
+Space complexity: Amount of memory taken.
+
+We can also say that the time complexity is the number of steps taken by an algorithm to run as a function of the length of the input. 
+And the space complexity is the number of memory cells taken by an algorithm to run as a function of the length of the input.
+
+
+How to represent the time complexity and space complexity of an algorithm?
+
+We will do that with asymptotic notation.
+
+Asymptotic notation is a way to represent the time complexity and space complexity of an algorithm.
+
+There are mainly 3 types of asymptotic notations.
+
+1. Big O notation - Worst case complexity   
+2. Omega notation - Best case complexity
+3. Theta notation - Average case complexity
+
+We will be using the Big O notation to represent the time complexity and space complexity of an algorithm.

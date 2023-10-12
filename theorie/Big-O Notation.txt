@@ -1,0 +1,115 @@
+What exactly is Big-O notation?
+
+Big-O notation describes the complexity of an algorithm using algebraic terms. It is used to describe the worst-case scenario of an algorithm. 
+For example, if an algorithm has a Big-O notation of O(n), then the worst-case scenario is that the algorithm will take n steps to complete.
+
+Big-O time complexity:
+_______________________________________________________________
+function sum(n) { ------> n = 4 (for example)
+    let sum = 0; ------> 1 Will always run
+    for (let i = 0; i < n; i++) {
+        sum += i; ------> 4 Will run n times
+    }
+    return sum; ------> 1 Will always run
+}
+
+sum(10);
+
+The above function has a Big-O time complexity of O(n). This is because the worst-case scenario is that the function will take n steps to complete.
+
+So we have n + 2 steps to complete the function. This is because the for loop will run n times, and the other two lines will always run.
+_______________________________________________________________
+
+If you see a loop in your function the in the most case it will be Linear Time Complexity O(n).
+
+Another example: 
+_______________________________________________________________
+function sum(n) {
+    return (n * (n + 1)) / 2; ------> 1 Will always run once 
+}
+
+This means the Time complexity is O(1) because it will always run once.
+
+O(1)- Constant Time Complexity
+
+a Constant Time Complexity is when the function will always run once.
+_______________________________________________________________
+
+/*
+
+O(1)- Constant Time Complexity
+
+a Constant Time Complexity is when the function will always run once.
+
+O(n)- Linear Time Complexity
+
+a Linear Time Complexity is when the function will run n times.
+
+O(n^2)- Quadratic Time Complexity
+
+a Quadratic Time Complexity is when the function will run n^2 times.
+
+O(log n)- Logarithmic Time Complexity
+
+a Logarithmic Time Complexity is when the function will run log n times.
+
+O(n log n)- Linearithmic Time Complexity
+
+a Linearithmic Time Complexity is when the function will run n log n times.
+
+O(2^n)- Exponential Time Complexity
+
+a Exponential Time Complexity is when the function will run 2^n times.
+
+O(n!)- Factorial Time Complexity
+
+a Factorial Time Complexity is when the function will run n! times.
+
+*/
+
+// O(1) Constant Time Complexity
+
+function sum(n) {
+    return (n * (n + 1)) / 2;
+}
+
+// O(n) Linear Time Complexity
+
+function sum(n) {
+    let sum = 0;
+    for (let i = 0; i < n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+// O(n^2) Quadratic Time Complexity
+
+function sum(n) {
+    let sum = 0;
+    for (let i = 0; i < n; i++) {
+        for (let j = 1; j < n; j++) {
+            sum += i + j;
+        }
+    }
+    return sum;
+}
+
+
+
+
+
+
+
+
+Space Complexity:
+
+Its the same as Time Complexity but instead of measuring the time it takes to complete the task, it measures the memory it takes to complete the task.
+
+/*
+O(1) Constant Space Complexity  - The function will always take the same amount of memory to complete the task.
+
+O(n) Linear Space Complexity - The function will take n amount of memory to complete the task.
+
+ */
+
