@@ -38,3 +38,5 @@ Characteristics of an algorithm:
 2. Each step should be clear and unique
 
 3. Language independent
+
+ppioiu
