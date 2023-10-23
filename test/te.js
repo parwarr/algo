@@ -6,3 +6,5 @@ function sum(n) {
 }
 
 sum(10);
+
+console.log(sum(20));
